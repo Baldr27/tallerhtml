@@ -28,8 +28,51 @@ li a:hover:not(.active) {
 }
 .main-points {
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 300px;
+  margin-right: 300px;
+  justify-content: center;
+  text-align: center;
 }
-#point1{
+.point {
+  padding: 10px;
+  width: 400px;
+}
+.carousel {
+  height: 400px;
+  text-align: center;
+  background-image:
+  url(../img/office.webp);
+  opacity: 0.6;
+}
+.foot {
+  display: flex;
+  margin-left: 300px;
+  margin-right: 300px;
+  justify-content: center;
+}
+.foot-info {
+  border: 1px solid silver;
+  padding: 5px;
+  margin: 5px;
+}
+#formulario {
+  display: table;
+  margin: auto;
+}
+h1, h2 {
+  text-align: center;
+}
+table {
+  margin: 0 auto;
+  border: 1px solid silver;
+}
+th {
+  border: 1px solid silver;
+}
+#edit {
+  background-color: yellow;
+}
+#delete {
+  background-color: red;
+  color: white;
 }
